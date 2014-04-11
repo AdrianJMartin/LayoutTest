@@ -19,19 +19,9 @@ HTML BODY > *{
 
 HEADER{top:0;left:0;right:0;height:2.5em;}
 FOOTER{ height:2em;bottom:0;left:0;right:0;border-radius:1em;}
-SECTION#assets {top:10.5em;left:0;width:20em;/* height:20em; */bottom: 3em;}
 
-SECTION#dates {
-    top: 3.5em;
-    left: 21em;
-    right: 0em;
-    height: 6em;
-}
-
-SECTION#grid{
-    top:10.5em;
-    left: 21em;bottom:3em;right:0;
-    overflow:hidden;
-}
+SECTION#assets {top:10.5em;left:0;width:20em;/* height:20em; */bottom: 3em;overflow:hidden;}
+SECTION#dates {top: 3.5em;left: 21em; right: 0em;height: 6em;overflow:hidden;}
+SECTION#grid{top:10.5em;left: 21em;bottom:3em;right:0;overflow:hidden;}
 
 
