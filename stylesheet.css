@@ -1,0 +1,37 @@
+HTML{ background:rgb(194, 178, 213);}
+
+* {border:1px rgb(128, 128, 128) solid;}
+
+OL {
+    margin: 0;
+}
+
+.toolbar {background:rgba(255, 255, 255, 0.2) ;padding:0.25em;border-radius:.75em;}
+.toolbar li{display:table-cell;width:2em;height:2em;background:rgba(255, 255, 255, 0.2);border-radius:1em;text-align:center;vertical-align:middle;}
+.toolbar li:hover{background:rgba(255, 255, 255, 0.6);}
+
+BODY{margin:0;}
+
+HTML BODY > *{
+       position:fixed;
+       margin:1em;
+}
+
+HEADER{top:0;left:0;right:0;height:2.5em;}
+FOOTER{ height:2em;bottom:0;left:0;right:0;border-radius:1em;}
+SECTION#assets {top:10.5em;left:0;width:20em;/* height:20em; */bottom: 3em;}
+
+SECTION#dates {
+    top: 3.5em;
+    left: 21em;
+    right: 0em;
+    height: 6em;
+}
+
+SECTION#grid{
+    top:10.5em;
+    left: 21em;bottom:3em;right:0;
+    overflow:hidden;
+}
+
+
